@@ -1,0 +1,4 @@
+git clone https://github.com/beaconchain-com/Beaconchain.us
+cd Beaconchain.us/mobile   # if separate folder
+npm install
+npx expo start
