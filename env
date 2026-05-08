@@ -1,10 +1,17 @@
-# Beaconchain API
-VITE_BEACONCHAIN_API_KEY=your_real_api_key_here
+# Beaconchain Horizon Security Configuration
+# Copy to .env.local for production
 
-# Prefect Cloud
-PREFECT_USER_ID=your-real-user-id
-PREFECT_WORKER_ID=your-real-worker-id
-PREFECT_AUTOMATION_ID=your-real-automation-id
+# API Keys (use backend proxy, never expose to frontend)
+BEACONCHAIN_API_KEY=your_api_key_here
+INFURA_PROJECT_ID=your_infura_id
 
-# Contact
-CONTACT_EMAIL=your-real-email@example.com
+# Database (if using backend)
+DATABASE_URL=postgresql://user:pass@localhost:5432/beaconchain
+REDIS_URL=redis://localhost:6379
+
+# Security
+SESSION_SECRET=your_super_secret_key_min_32_chars
+CSP_REPORT_URI=https://beaconchain.us/csp-report
+
+# Admin
+ADMIN_EMAIL=admin@beaconchain.us
