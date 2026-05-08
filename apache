@@ -1,0 +1,11 @@
+# Security Headers
+Header set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; connect-src 'self'; img-src 'self' data: https:; frame-src 'none';"
+Header set X-Frame-Options "DENY"
+Header set X-Content-Type-Options "nosniff"
+Header set Referrer-Policy "strict-origin-when-cross-origin"
+Header set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+
+# Cache static files
+<FilesMatch "\.(html|css|js)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+</FilesMatch>
