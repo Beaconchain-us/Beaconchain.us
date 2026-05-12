@@ -1,0 +1,25 @@
+COPYRIGHT DECLARATION & CERTIFICATE OF AUTHORSHIP
+====================================================
+
+Project: Beaconchain Horizon / Eth2 Beacon Chain Explorer
+Repository: https://github.com/beaconchain-us/eth2-beaconchain-explorer
+Domain: https://beaconchain.us
+
+I, Mahdi Amolimoghaddam, hereby declare that I am the original creator, 
+author, and sole owner of all intellectual property rights for the 
+software work known as "Beaconchain Horizon" (formerly part of gobitfly).
+
+Date of First Publication (Internet): 2025-11-29 (via beaconchain.us)
+Date of First Commit (GitHub): 2026-05-08 (Account: beaconchain-us)
+
+This work is protected under:
+- International Copyright Law (Berne Convention)
+- GNU General Public License v3.0
+- Digital Signature & SHA-256 Fingerprint (See SIGNATURE.txt)
+
+Any claim of ownership by any other party, including but not limited to 
+Bitfly GmbH or bitfly explorer gmbh, is false. This project has been 
+developed and maintained independently by me since 2024.
+
+Signed: Mahdi Amolimoghaddam
+Date: 2026-05-12
